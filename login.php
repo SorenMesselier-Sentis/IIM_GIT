@@ -17,13 +17,10 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 		// TODO
 
 		// Force user connection to access dashboard
-		$userConnection = userConnection($db, $_POST['email'], $_POST['password']);
+		userConnection($db, 'git@initiation.com', 'password');
+		
+		header('Location: dashboard.php');
 
-        if ($userConnection) {
-		    header('Location: dashboard.php');
-        } else {
-            $error = 'Mauvais identifiants';
-        }
 	}else{
 		$error = 'Champs requis !';
 	}
