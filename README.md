@@ -44,6 +44,6 @@ Inscription
 * Enfin, fusionnez la branche register dans la branche master, puis pushez sur master. (n'oublier pas de récupérer les potentiels changements en faisant un git pull)
 
 
-
-
-
+# Collaborators
+- <a href="https://github.com/SorenMesselier-Sentis">Soren MESSELIER-SENTIS</a>
+- <a href="https://github.com/yannisobert"> Yannis OBERT</a>
